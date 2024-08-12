@@ -2,7 +2,6 @@ import HeaderBox from "@/components/HeaderBox";
 import RightSidebar from "@/components/RightSidebar";
 import { getLoggedInUser } from "@/lib/actions/user.actions";
 import React from "react";
-
 const Home = async () => {
   const loggedIn = await getLoggedInUser();
   return (
